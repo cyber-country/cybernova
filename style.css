@@ -1,0 +1,190 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8; /* Light gray background */
+    color: #333; /* Darker text */
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* To contain rounded borders of header/footer */
+}
+
+header {
+    background-color: #007bff; /* Primary blue */
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+header h1 i {
+    margin-right: 10px;
+}
+
+header .tagline {
+    font-size: 1.1rem;
+    color: #e0f7fa;
+}
+
+section {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+section h2 i {
+    margin-right: 10px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.input-group label i {
+    margin-right: 5px;
+}
+
+textarea#symptoms,
+input#manualHeartRate {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.speech-controls,
+.heart-rate-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.record-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.stop-button {
+    background-color: #6c757d; /* Gray */
+    color: white;
+}
+
+.submit-button {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.analyze-button {
+    background-color: #00c853; /* Vibrant green */
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#heartRate.info-text {
+    margin-top: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+#results-section {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+}
+
+.result-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    border-left: 5px solid #007bff; /* Highlight color */
+}
+
+.result-card h3 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.result-card h3 i {
+    margin-right: 8px;
+}
+
+.result-card p.result-text {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
